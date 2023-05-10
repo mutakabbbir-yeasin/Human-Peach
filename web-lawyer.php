@@ -35,8 +35,10 @@
             <!--container-->
             <div class="container">
                 <div class="top-nav">
-                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top">
-
+                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top px-4">
+                        <div>
+							<h4 class="text-white">Human Peace</h4>
+						</div>
                     <!-- icon & target for collapse -->
 
                     <button type="button" class="navbar-toggler button_custom" data-toggle="collapse" data-target="#menus" > <!-- target id collapse -->
@@ -128,41 +130,41 @@
                             <br>
                             <table class="table">
                                 <tr> 
-                                    <td><b>Email </b></td>
+                                    <td><b class="text-white">Email </b></td>
 
-                                    <td><b>:</b></td>
+                                    <td><b class="text-white">:</b></td>
 
-                                    <td><?= $data['email'] ?></td>
+                                    <td class="text-white"><?= $data['email'] ?></td>
                                 </tr>
                                 
                                 <tr>
-                                    <td><b>Mobile </b></td>
-                                    <td><b>:</b></td>
-                                    <td><?= $data['mobile'] ?></td>
+                                    <td><b class="text-white">Mobile </b></td>
+                                    <td><b class="text-white">:</b></td>
+                                    <td class="text-white"><?= $data['mobile'] ?></td>
                                 </tr>
                                 
                                 <tr>    
-                                    <td><b>Address </td>
+                                    <td><b class="text-white">Address </td>
                                     
-                                    <td><b>:</b></td>
+                                    <td><b class="text-white">:</b></td>
 
-                                    <td><?= $data['address'] ?></td>
+                                    <td class="text-white"><?= $data['address'] ?></td>
                                 </tr>
 
                                 <tr>    
 
-                                    <td><b>Study </td>
+                                    <td><b class="text-white">Study </td>
                                     
-                                    <td><b>:</b></td>
+                                    <td><b class="text-white">:</b></td>
 
-                                    <td><?= $data['study'] ?></td>
+                                    <td class="text-white"><?= $data['study'] ?></td>
                                 </tr>
                                 <tr>    
-                                    <td><b>Working Place </td>
+                                    <td><b class="text-white">Working Place </td>
                                     
-                                    <td><b>:</b></td>
+                                    <td><b class="text-white">:</b></td>
 
-                                    <td><?= $data['working_place'] ?></td>
+                                    <td class="text-white"><?= $data['working_place'] ?></td>
                                 </tr>
                                 <tr>
 
@@ -182,7 +184,7 @@
                         <div class="col-md-2">
                             <br><br><br><br><br>
                             
-                            <a href="service-request.php?s=<?= $data['id'] ?>" class="btn btn-light text-center">Send Request</a>
+                            <a href="service-request.php?s=<?= $data['id'] ?>" class="btn btn-light text-center ">Send Request</a>
 
 
                         </div>

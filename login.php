@@ -32,8 +32,10 @@
             <!--container-->
             <div class="container">
                 <div class="top-nav">
-                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top">
-
+                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top px-4">
+                      <div>
+							<h4 class="text-white">Human Peace</h4>
+						</div>
                     <!-- icon & target for collapse -->
 
                     <button type="button" class="navbar-toggler button_custom" data-toggle="collapse" data-target="#menus" > <!-- target id collapse -->

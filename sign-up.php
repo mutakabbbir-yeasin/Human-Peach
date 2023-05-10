@@ -26,8 +26,10 @@
             <!--container-->
             <div class="container">
                 <div class="top-nav">
-                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top">
-
+                    <nav class="navbar fixed-top navbar-expand-md navbar-primary header-top px-4">
+<div>
+							<h4 class="text-white">Human Peace</h4>
+						</div>
                     <!-- icon & target for collapse -->
 
                     <button type="button" class="navbar-toggler button_custom" data-toggle="collapse" data-target="#menus" > <!-- target id collapse -->
@@ -189,9 +191,11 @@
 
           </div>
           <div class="form-group row">
-            <label for="" class="col-sm-3 col-form-label"><b>NID <span class="text-danger">*</span></b></label>
+            <label for="" class="col-sm-3 col-form-label"><b>NID 
+              <!-- <span class="text-danger">*</span> -->
+            </b></label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="" name="nid" required>
+              <input type="text" class="form-control" id="" name="nid" >
             </div>
             <div class="col-sm-1"></div>        
           </div>
